@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+}/*
+
+	/*header styling*/
+
+header {
+	border-bottom: 1px solid lightgrey;
+}
+.container {
+	width: 90%;
+	margin: 7px auto;
+	overflow: hidden;
+}
+.container .logo {
+	width: 6%;
+	float: left;
+	cursor: pointer;
+}
+.container .logo img {
+	width: 100%;
+}
+.container .menu {
+	float: right;
+	overflow: hidden;
+}
+.container .menu ul {
+	list-style-type: none;
+	float: right;
+	overflow: hidden;
+}
+.container .menu ul li {
+	float: left;
+	margin: 0;
+}
+.container .menu ul li a {
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px 25px;
+	color: #0F2656;
+	margin-right: 0;
+	font-family: sans-serif;
+}
+.container .menu ul li a:hover {
+	color: #008AFF;
+}
+
+	/*banner styling*/
+
+.banner {
+	width: 55%;
+	margin: 90px auto;
+}
+.banner .heading {
+	text-align: center;
+	padding: 29px;
+	padding-bottom: 9px;
+}
+.banner .heading h1 {
+	font-size: 45px;
+	font-weight: 700;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color: #0F2656;
+}
+.banner .heading h2 {
+	font-size: 45px;
+	font-weight: 800;
+	font-family: sans-serif;
+	color: #008AFF;
+	margin-top: 7px;
+}
+.banner .details {
+	text-align: center;
+	font-family: sans-serif;
+	padding: 5px;
+	color: #0F2656;
+	line-height: 26px;
+}
+.banner figure {
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 45px;
+}
+.banner figure img {
+	width: 100%;
+	cursor: pointer;
+}
+.banner figure img:hover {
+	transform: translateY(-7px);
+	transition: 0.4s;
+}
+.banner figure img figcaption {
+	display: none;
+}
+
+	/*portfolio styling*/
+
+.portfolio {
+	overflow: hidden;
+	width: 60%;
+	margin: 30px auto;
+}
+.portfolio .col-2 {
+	width: 48%;
+	height: 100%;
+	padding: 40px 0;
+}
+.portfolio .no-1 {
+	float: left;
+}
+.portfolio .no-2 {
+	float: right;
+}
+.portfolio .col-2 .main {
+	text-align: right;
+	font-size: 45px;
+	font-family: sans-serif;
+	color: #F15767;
+}
+.portfolio .col-2 .text {
+	text-align: right;
+	padding-left: 50px;
+	font-family: sans-serif;
+	color: #0F2656;
+	line-height: 25px;
+}
+.portfolio .col-2 .first, .portfolio .col-2 .second, .portfolio .col-2 .third {
+	text-align: left;
+	font-size: 47px;
+	font-family: sans-serif;
+	color: #0F2656;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+	/*services styling*/
+
+.services {
+	width: 90%;
+	margin: 40px auto;
+	overflow: hidden;
+}
+.services .card {
+	width: 30%;
+	float: left;
+	margin: 5px 20px;
+	cursor: pointer;
+}
+.services .card img {
+	width: 100%;
+}
+.services .card img:hover {
+	transform: translateY(-10px);
+	transition: 0.3s;
+}
+
+	/*footer styling*/
+
+footer {
+	padding: 10px 0;
+	text-align: center;
+	background-color: #008AFF;
+	height: 60px;
+	margin-top: 55px;
+}
+footer p {
+	color: #9ECEFF;
+	font-size: 15px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+footer p span {
+	color: #fff;
+	font-size: 17px;
+	letter-spacing: 2px;
+}
