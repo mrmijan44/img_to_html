@@ -1,1 +1,1 @@
-https://mrmijan44.github.io/img_to_html/
+https://mrmijan44.github.io/quick_img_to_html/
